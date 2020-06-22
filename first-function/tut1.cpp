@@ -47,7 +47,7 @@ Module *makeLLVMModule(LLVMContext &Context)
       Type::getInt32Ty(Context),
       Type::getInt32Ty(Context),
       Type::getInt32Ty(Context));
-  Function *mul_add = Function *mul_add = cast<Function> (mul_add_fun.getCallee());
+  Function *mul_add = cast<Function> (mul_add_fun.getCallee());
 
   mul_add->setCallingConv(CallingConv::C);
   Function::arg_iterator args = mul_add->arg_begin();
