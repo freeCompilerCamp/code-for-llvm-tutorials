@@ -30,7 +30,7 @@ endif()
 
 ### add some C++ compiler flags
 ## unfortunately we can't use add_compile_options here since that would also add them to C files
-set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")      ## set C++ standard to use
+set(CMAKE_CXX_FLAGS "-std=c++14 ${CMAKE_CXX_FLAGS}")      ## set C++ standard to use
 set(CMAKE_CXX_FLAGS "-fno-rtti ${CMAKE_CXX_FLAGS}")       ## disable C++ RTTI
 set(CMAKE_CXX_FLAGS "-fno-exceptions ${CMAKE_CXX_FLAGS}") ## disable C++ exceptions
 
